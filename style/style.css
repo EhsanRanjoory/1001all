@@ -1,0 +1,87 @@
+﻿/* 1001all style */
+html{
+	direction: rtl;
+}
+body{
+	background-color: black;
+	margin: 15px;
+	font-family: tahoma;
+}
+a,a:hover,a:visited,a:active{
+	text-decoration: none;
+	color: inherit;
+}
+.opacitytext{
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+}
+.padding{
+	padding: 5px;
+}
+#c1{
+	background-image: url('b6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	border-radius: 30px 30px 0px 0px;
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 250px 250px 250px;
+}
+#c1>#logo{
+	grid-column: 2/4;
+	grid-row: 2/3;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+}
+#c1>#gateway{
+	grid-column: 4/-1;
+	grid-row: 1/2;
+}
+#c1>#welcomesound{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	font-size: small;
+}
+#c1>#message{
+	grid-column: 4/-1;
+	grid-row: 3/4;
+	text-align: right;
+}
+#c1>#copyright{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	font-size: small;
+	text-align: left;
+}
+
+
+#c2{
+	background-color: white;
+	width: 100%;
+	border-radius: 0px 0px 30px 30px;
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+#c2>#title{
+	background-color: red;
+	grid-column: 2/4;
+	grid-row: 1/2;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	font-size: 20px;
+	color: white;
+}
+#c2>#site{
+	grid-column: 1/-1;
+	grid-row: 2/-1;
+	border-top: 3px solid red;
+	color: black;
+}
