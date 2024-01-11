@@ -30,6 +30,7 @@ a,a:hover,a:visited,a:active{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 250px 250px 250px;
+	color: black;
 }
 #c1>#logo{
 	grid-column: 2/4;
@@ -42,11 +43,13 @@ a,a:hover,a:visited,a:active{
 #c1>#gateway{
 	grid-column: 4/-1;
 	grid-row: 1/2;
+	text-shadow: 1px 1px 5px white;
 }
 #c1>#welcomesound{
 	grid-column: 1/2;
 	grid-row: 1/2;
 	font-size: small;
+	text-shadow: 1px 1px 5px white;
 }
 #c1>#message{
 	grid-column: 4/-1;
