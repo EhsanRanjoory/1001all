@@ -11,6 +11,9 @@ a,a:hover,a:visited,a:active{
 	text-decoration: none;
 	color: inherit;
 }
+a:hover{
+	text-decoration: underline;
+}
 .opacitytext{
 	background-color: black;
 	color: white;
